@@ -1,3 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
+ - [首页](/)
+ - [iOS](/iOS/)
+ - [Android](/Android/)
