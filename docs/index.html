@@ -4,24 +4,19 @@
   <meta charset="UTF-8">
   <title>Sans's Wiki</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- <meta name="description" content="Description"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app">加载中</div>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
   <script>
     var num = 0;
-    mermaid.initialize({ startOnLoad: false });
     window.$docsify = {
       name: 'Wiki',
       repo: '', // 配置仓库地址或者 username/repo 的字符串，会在页面右上角渲染一个 GitHub Corner 挂件。
-      loadSidebar: true, // 自定义侧边栏,通过 _sidebar.md 编辑
-      maxLevel: 4, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+      //loadSidebar: true, // 自定义侧边栏,通过 _sidebar.md 编辑
+      //maxLevel: 4, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
       auto2top: true, // 换页自动到顶部
 
       // markdown 支持 mermaid
@@ -45,7 +40,7 @@
 
       //coverpage: true, // 封面的生成同样是从 markdown 文件渲染来的。开启渲染封面功能后在文档根目录创建 _coverpage.md 文件。渲染效果如本文档。
 
-      search: 'auto', // 默认值
+      // search: 'auto', // 默认值
       // 完整配置参数
       search: {
       maxAge: 86400000, // 过期时间，单位毫秒，默认一天
@@ -67,7 +62,7 @@
       // 搜索标题的最大层级, 1 - 6
       depth: 2,
 
-      hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+      // hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
 
       // 避免搜索索引冲突
       // 同一域下的多个网站之间
@@ -83,18 +78,19 @@
       // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
       // 匹配到的字符串将被用来识别索引
       pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
-    },
+    }
 
     }
+    mermaid.initialize({ startOnLoad: false });
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"> -->
 </body>
 </html>
