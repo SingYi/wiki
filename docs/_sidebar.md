@@ -1,7 +1,9 @@
 <!-- docs/_sidebar.md -->
+ - [Docker](/Docker/)
  - [iOS](/iOS/)
  - [Android](/Android/)
  - [游戏](/Game/)
+    - [安装-steamcmd](/Game/install_steam_cmd.md)
     - [求生之路2服务器搭建](/Game/L4D2_Server_Setup.md)
  - [其他](/Other/)
     - [在图片中写入数据](/Other/image_write_data.md)
