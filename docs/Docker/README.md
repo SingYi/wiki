@@ -25,7 +25,7 @@
 在新容器内指定一个伪终端或者终端
 
 ### -i
-允许你对容器内的标准输入(STDIN)进行及哦啊胡
+允许你对容器内的标准输入(STDIN)进行操作
 
 ### -v
 将宿主机目录挂载到容器目录，必须为绝对路径，冒号后为容器挂载的路径
@@ -60,4 +60,10 @@ portainer.io
  - -p, --pause: 在 commit 时，是否暂停容器。
 
 示例:
-`docker commit -a "John Doe" -m "Added new feature" [容器id] [镜像名称]:[tag]`
+`docker commit -a "sans" -m "Added new feature" [容器id] [镜像名称]:[tag]`
+
+## 将打包好的镜像推送到远端仓库
+示例:
+`docker push [镜像名称]:[tag]`
+
+## 通过 Dockerfile 打包镜像
