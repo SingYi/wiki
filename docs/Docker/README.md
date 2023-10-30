@@ -9,14 +9,12 @@
 
  ```yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo```
 
- ```yum-config-manager --add-repo http://mirrors.cloud.tencent.com/docker-ce/linux/centos/docker-ce.repo```
-
  3. 安装 docker-ce
 
  `yum install -y docker-ce docker-ce-cli containerd.io`
 
  4. 启动 docker 服务
- 
+
  `systemctl start docker`
 
 
@@ -38,7 +36,8 @@
 `--name [name]`
 
 ### -p
-容器内部端口绑定到指定主机端口
+指定端口映射，格式为：主机(宿主)端口:容器端口
+`-p [主机端口]:[容器端口]`
 
 ### -P
 容器内部端口随机映射到主机高端口
