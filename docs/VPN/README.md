@@ -305,7 +305,7 @@ systemctl enable iptables # 设置开机自动启动
 
 ## 7. 启动 ocserv
 ```
-systemctl enable -now ocserv # 设置开机自动启动
+systemctl enable --now ocserv # 设置开机自动启动
 systemctl restart ocserv # 重启服务器
 systemctl status ocserv # 查看状态
 ```
