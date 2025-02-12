@@ -3,6 +3,6 @@
 
 # 新版本
 
-https://napneko.github.io/zh-CN/guide/getting-started
+https://napneko.github.io/
 
 测试一下
