@@ -5,4 +5,7 @@
 
 https://napneko.github.io/
 
+## docker 部署
+https://github.com/NapNeko/NapCat-Docker
+
 测试一下
